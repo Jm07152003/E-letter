@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Christmas E-letter</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+        .container {
+            max-width: 90%;
+            margin: 20px auto;
+            background-color: #ffffff;
+            border: 1px solid #dddddd;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            background-color: #ff4141;
+            padding: 20px;
+            color: #ffffff;
+            border-radius: 10px 10px 0 0;
+            background-image: url('https://www.transparenttextures.com/patterns/giftly.png');
+        }
+        .header h1 {
+            font-size: 28px;
+            margin: 0;
+        }
+        .content {
+            padding: 20px;
+            color: #333333;
+            text-align: justify;
+            margin: 40px;
+        }
+        .content p {
+            text-indent: 40px;
+            margin-bottom: 15px;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #ff4141;
+            color: #ffffff;
+            font-size: 12px;
+            border-radius: 0 0 10px 10px;
+        }
+        .btn-container {
+            text-align: center;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #008f39;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            font-weight: bold;
+            border: 2px solid #ffffff;
+            margin: 10px;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #006e30;
+        }
+        .reply-btn {
+            background-color: #ff4141;
+        }
+        .reply-btn:hover {
+            background-color: #d63636;
+        }
+        .christmas-text {
+            color: #ff4141;
+            font-weight: bold;
+        }
+        .christmas-deco {
+            display: block;
+            width: 100px;
+            margin: 10px auto;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 24px;
+            }
+            .btn {
+                padding: 10px 20px;
+                font-size: 16px;
+            }
+            .container {
+                padding: 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header h1 {
+                font-size: 20px;
+            }
+            .btn {
+                padding: 8px 16px;
+                font-size: 14px;
+            }
+            .container {
+                padding: 10px;
+            }
+            .content {
+                margin: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+           <h1>🎄 Merry Christmas and Happy New Year Ma'am Roan!🎄</h1>
+        </div>
+        <div class="content">
+            Dear Ma'am Roan,
+            <p>First of all, I'd like to commend you Ma'am, for being a great professor to all of your students. Sobrang grateful ko po Ma'am Roan na isa kayo sa mga naging professor ko this college era ko, hindi ko po 'to sinasabi because gusto ko po sumipsip HAHAHA alam ko po na ayaw n'yo sa ganon, yun lang po talaga gusto ko iparating na isa po kayo sa mga professor na nagustuhan ko po in their ways of teaching their students. You're strict yet fun and enjoyable po tuwing nagkklase tayo especially kapag nagsshare po kayo ng mga random stories n'yo or jokes, a very humorous professor and yet straightforward, yun po po yung mga nagustuhan ko sa inyo bilang professor po.</p>
+            <p>Second po is pinapakinggan n'yo mga hinaing naming mga estudyante, kung ayos or nahihirapan na ba kami, kung kailangan ba namin extra time to do our work, and give us  pa some tips. Sobrang laking tulong po na mabawasan yung pagkapressure naming mga estudyante.</p>
+            <p>Personally Ma'am, gusto ko po sana na mas mag grow in IT, even tho until now di pa po ako sure sa ittake kong specialization, isa po kayo sa dalawang prof na feel ko po ay pwede kong malapitan if I want to become a greater student, gusto ko po sana na mas mag-excel sa kung anong kaya ko, marami pa po ako gustong matutunan, mga kakulangan ko po sa mga outputs ko or kung ano po mali sa gawa ko. I know Ma'am na ang sakop nyo po is about Web System, di pa rin po ako sure kung ano ittake ko as specialization pero isa po kayo sa alam ko na pwedeng lapitan if ever and I'm using this chance para masabi po sa inyo ito, I wanna aim higher and mas gusto ko pa pong pagpursigihan. </p>
+            <p>Pero Ma'am, yun lang naman po, sana po ay patuloy lang po mag cross landas natin HAHAHA  May your Christmas sparkle with moments of love, and may the new year bring you happiness and success.</p>
+            <p>Stay healthy and have a blessed life po, Merry Christmas and Happy New Year Ma'am Roan!</p>
+            <img src="xmas_tree.gif" alt="Christmas Tree" class="christmas-deco">
+            <a href="#" class="btn" onclick="showAlert()">Spread the Christmas Cheer!</a>
+            <br>
+            <a href="mailto:jmbacani78@gmail.com?subject=Christmas%20Greetings&body=Dear%20[Your%20Name],%0D%0A%0D%0AThank%20you%20for%20the%20wonderful%20Christmas%20message!%0D%0AMerry%20Christmas%20and%20a%20Happy%20New%20Year!" class="btn reply-btn">Send a Reply</a>
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 Christmas E-letter. All rights reserved.</p>
+        </div>
+    </div>
+
+    <script>
+        function showAlert() {
+            alert("Merry Christmas and Happy Holidays!");
+        }
+    </script>
+</body>
+</html>
